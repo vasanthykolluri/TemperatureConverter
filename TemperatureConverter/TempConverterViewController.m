@@ -10,6 +10,8 @@
 
 @interface TempConverterViewController ()
 
+//- (void)FahTextFieldDidChange;
+//- (void)CelTextFieldDidChange;
 - (void) updateValues;
 
 @end
@@ -31,6 +33,9 @@
     [super viewDidLoad];
     self.FahTextField.keyboardType = UIKeyboardTypeDecimalPad;
     self.CelTextField.keyboardType = UIKeyboardTypeDecimalPad;
+    //[self.FahTextField addTarget:self action:@selector(FahTextFieldUpdate::) forControlEvents:UIControlEventEditingChanged];
+    //[self.CelTextField addTarget:self action:@selector(CelTextFeildDidChange:) forControlEvents:UIControlEventEditingChanged];
+    
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -66,4 +71,17 @@
 - (IBAction)Convert:(id)sender {
     [self updateValues];
 }
+
+- (IBAction)FahTextFieldUpdate:(id)sender {
+    NSLog(@"FahTextFieldUpdate");
+    self.CelTextField.text = nil;
+}
+
+- (IBAction)CelTextFieldUpdate:(id)sender {
+    NSLog(@"CelTextFieldUpdate");
+    
+    self.FahTextField.text = nil;
+    
+}
+
 @end

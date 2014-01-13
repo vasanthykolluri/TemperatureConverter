@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TemperatureConverter/TempConverterViewController.m"
-            timestampString = "411281098.578264"
+            timestampString = "411330651.934216"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "-updateValues"
             landmarkType = "5">
          </BreakpointContent>

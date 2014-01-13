@@ -14,5 +14,7 @@
 @property (nonatomic, strong) IBOutlet UITextField *CelTextField;
 
 - (IBAction)Convert:(id)sender;
+- (IBAction)FahTextFieldUpdate:(id)sender;
+- (IBAction)CelTextFieldUpdate:(id)sender;
 
 @end
