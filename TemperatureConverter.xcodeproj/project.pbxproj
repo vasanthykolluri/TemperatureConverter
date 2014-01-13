@@ -19,6 +19,8 @@
 		AACAA7D31883862100E56C2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACAA7BB1883862100E56C2B /* UIKit.framework */; };
 		AACAA7DB1883862100E56C2B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AACAA7D91883862100E56C2B /* InfoPlist.strings */; };
 		AACAA7DD1883862100E56C2B /* TemperatureConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AACAA7DC1883862100E56C2B /* TemperatureConverterTests.m */; };
+		AACAA7E91883868100E56C2B /* TempConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACAA7E71883868100E56C2B /* TempConverterViewController.m */; };
+		AACAA7EA1883868100E56C2B /* TempConverterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACAA7E81883868100E56C2B /* TempConverterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		AACAA7D81883862100E56C2B /* TemperatureConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TemperatureConverterTests-Info.plist"; sourceTree = "<group>"; };
 		AACAA7DA1883862100E56C2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AACAA7DC1883862100E56C2B /* TemperatureConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureConverterTests.m; sourceTree = "<group>"; };
+		AACAA7E61883868100E56C2B /* TempConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempConverterViewController.h; sourceTree = "<group>"; };
+		AACAA7E71883868100E56C2B /* TempConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempConverterViewController.m; sourceTree = "<group>"; };
+		AACAA7E81883868100E56C2B /* TempConverterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempConverterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				AACAA7C71883862100E56C2B /* AppDelegate.m */,
 				AACAA7C91883862100E56C2B /* Images.xcassets */,
 				AACAA7BE1883862100E56C2B /* Supporting Files */,
+				AACAA7E61883868100E56C2B /* TempConverterViewController.h */,
+				AACAA7E71883868100E56C2B /* TempConverterViewController.m */,
+				AACAA7E81883868100E56C2B /* TempConverterViewController.xib */,
 			);
 			path = TemperatureConverter;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AACAA7C21883862100E56C2B /* InfoPlist.strings in Resources */,
+				AACAA7EA1883868100E56C2B /* TempConverterViewController.xib in Resources */,
 				AACAA7CA1883862100E56C2B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AACAA7C81883862100E56C2B /* AppDelegate.m in Sources */,
+				AACAA7E91883868100E56C2B /* TempConverterViewController.m in Sources */,
 				AACAA7C41883862100E56C2B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
